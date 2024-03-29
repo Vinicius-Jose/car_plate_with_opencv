@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tutorial 1"
+version = "0.1.0"
+description = ""
+authors = ["Vinícius José Pierri Nogueira <vinijosenog@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+opencv-python = "^4.9.0.80"
+imutils = "^0.5.4"
+easyocr = "^1.7.1"
+matplotlib = "^3.8.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
